@@ -19,3 +19,8 @@ npm install dev-server -g
 ```
 DEV_SERVER_PORT=5000 DEV-SERVER
 ```
+
+>Ver en el navegador:
+```
+http://localhost:5000
+```
