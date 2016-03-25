@@ -1,0 +1,21 @@
+# api-camara
+Usando el api de mediastream para tomar fotos con la camara del dispositivo, con el navegeador, usando js.
+
+## Descarga/Clone
+```
+git clone https://github.com/joelengt/api-camara.git
+```
+
+## Start
+Para correr el proyecto en local o en producción , es necesario ejecutarlo en un servidor con apache2, o que soporte estaticos.
+En local correrlo con [dev-server](https://www.npmjs.com/package/dev-server), en producción con apache2, nginx o el de preferencia.
+
+>install:
+```
+npm install dev-server -g
+```
+
+>run server
+```
+DEV_SERVER_PORT=5000 DEV-SERVER
+```
