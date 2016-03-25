@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<title>WebRTC: Captura foto en tu Dispositivo con JS</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
+	<link rel="stylesheet" href="./css/main.css" type="text/css" media="all">
+</head>
+<body>
+<div class="contentarea">
+	<h1>
+		WebRTC: Toma Foto en tu Dispositivo con JS
+	</h1>
+	<p>
+		Este ejemplo muestra como la función del API de media stream usando el webcam de tu dispositivo, La App crea imagen PNG, todas ellas quedaran guardadas temporalmente.
+	</p>
+  <div class="camera">
+    <video id="video">Video stream not available.</video>
+    <button id="startbutton">¡Click para Tomar Foto!</button> 
+  </div>
+  <canvas id="canvas">
+  </canvas>
+  <div class="output">
+    <img id="photo" alt="The screen capture will appear in this box."> 
+  </div>
+</div>
+<button id="showAllPhotos">
+	Mostrar todas las fotos
+</button>
+
+<div class="AllPhotos">
+	
+</div>
+<script type="text/javascript" src="./js/code.js"></script>
+</body>
+</html>
