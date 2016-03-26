@@ -1,5 +1,6 @@
 # api-camara
 Usando el api de mediastream para tomar fotos con la camara del dispositivo, con el navegeador, usando js.
+Recordar, que se la aplicación solo funciona en local, o en un servidor https, por seguridad del usuario.
 
 ## Descarga/Clone
 ```
